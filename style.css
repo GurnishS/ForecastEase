@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    font-family: 'Monaco','Montserrat', sans-serif;
+    padding:3rem;
+}
+
+#body{
+    background-color: #EEF5FF;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #176B87;
+    padding: 0.5rem;
+    gap:1rem;
+}
+
+#temp_heading{
+    font-size:3rem;
+    font-weight: 300;
+}
+
+#nav img{
+    width:5rem;
+}
+
+#nav input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+#nav h1{
+    color: white;
+}
+
+#date{
+    text-align: center;
+    margin:1rem;
+    padding:2px;
+    border-bottom: 1px solid gray;
+}
+
+#time{
+    display:flex;
+    justify-content: space-between;
+}
+
+#temprature{
+    display:flex;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+#temprature img{
+    width:5rem;
+}
+
+
+
+#weather_info{
+    padding:0 3rem;
+}
+
+list{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#details{
+    margin:2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#details_box1,#details_box2{
+    display:flex;
+    gap:3rem;
+    font-weight: 600;
+}
+
+#details_val1,#details_val2{
+    font-weight: 100;
+    font-size:1.25rem;
+}

@@ -1,0 +1,11 @@
+color:
+1.EEF5FF
+2.B4D4FF
+3.86B6F6
+4.176B87
+
+sample:
+{"request":{"type":"City","query":"Kota, India","language":"en","unit":"m"},"location":{"name":"Kota","country":"India","region":"Rajasthan","lat":"25.183","lon":"75.833","timezone_id":"Asia\/Kolkata","localtime":"2023-12-28 16:20","localtime_epoch":1703780400,"utc_offset":"5.50"},"current":{"observation_time":"10:50 AM","temperature":25,"weather_code":113,"weather_icons":["https:\/\/cdn.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"],"weather_descriptions":["Sunny"],"wind_speed":7,"wind_degree":82,"wind_dir":"E","pressure":1016,"precip":0,"humidity":28,"cloudcover":5,"feelslike":25,"uv_index":6,"visibility":10,"is_day":"yes"}}
+
+link:
+http://api.weatherstack.com/current?access_key=130ea05200edeff5a86a6faa9739ff0f&query=Kota,Rajasthan,India
