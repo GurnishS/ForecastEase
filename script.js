@@ -34,7 +34,7 @@ promise.then(function(response){
 }
 
 
-const base_url="http://api.weatherstack.com/current?access_key=130ea05200edeff5a86a6faa9739ff0f&query=";
+const base_url="https://api.weatherstack.com/current?access_key=130ea05200edeff5a86a6faa9739ff0f&query=";
 
 let region="Kota,Rajasthan,India";
 
