@@ -1,5 +1,5 @@
 function getWeather(region){
-    const url=base_url+region;
+    const url = base_url + encodeURIComponent(apiUrl+region);
 let promise=fetch(url);
 promise.then(function(response){
     return response.json();
@@ -34,8 +34,8 @@ promise.then(function(response){
 }
 
 
-const base_url="https://api.weatherstack.com/current?access_key=130ea05200edeff5a86a6faa9739ff0f&query=";
-
+const base_url = "https://forecasteaseproxy.onrender.com/proxy?url=";
+const apiUrl = "http://api.weatherstack.com/current?access_key=130ea05200edeff5a86a6faa9739ff0f&query=";
 let region="Kota,Rajasthan,India";
 
 const input=document.getElementById("location");
