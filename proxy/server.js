@@ -2,8 +2,14 @@
 import('node-fetch').then(({ default: fetch }) => {
     // Create an Express app
     const express = require('express');
+    const cors = require('cors');
     const app = express();
+    const corsOptions = {
+        origin: '*'
+    };
+    app.use(cors(corsOptions));
     const port = process.env.PORT || 3000;
+
 
     // Define a route for proxying HTTP requests
     app.get('/proxy', async (req, res) => {
