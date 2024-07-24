@@ -2,4 +2,4 @@
 This a weather displaying site created using HTML,CSS and JS.
 
 #Link
-Visit:https://gurnishs.github.io/ForecastEase/
+Visit:https://forecast-ease.vercel.app
